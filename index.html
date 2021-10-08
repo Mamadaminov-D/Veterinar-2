@@ -1,178 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/coloumn.css">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/coloumn.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<body>
-  <div class="header-cap">
-    <div class="header-up">
+  <body>
+    <div class="header-cap">
+      <div class="header-up">
+        <div class="container">
+          <div class="cap">
+            <ul class="cap__list row between">
+
+              <li class="cap__list-item">
+                <a href="#" class="cap__item-link icon">
+                  г. Мариуполь, проспект Победы, 48а</a>
+              </li>
+
+              <li class="cap__list-item row evenly">
+                <a href="#" class="cap__item-link iconn">(098) 266 - 43 - 89</a>
+                <a href="#" class="cap__item-link dot">(0637) 57 - 01 - 31</a>
+                <a href="#" class="cap__item-link dot">(067) 634 -75 - 74</a>
+              </li>
+
+              <li class="cap__list-item row evenly icon">
+                <time datetime="2020-12-20">Пн - Пт 8:00 - 18:00</time>
+                <time datetime="2020-12-20">Сб - Вс 8:00 - 14:00</time>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
       <div class="container">
-        <div class="cap">
-          <ul class="cap__list row between">
-
-            <li class="cap__list-item">
-              <a href="#" class="cap__item-link icon">
-                г. Мариуполь, проспект Победы, 48а</a>
-            </li>
-
-            <li class="cap__list-item row evenly">
-              <a href="#" class="cap__item-link iconn">(098) 266 - 43 - 89</a>
-              <a href="#" class="cap__item-link dot">(0637) 57 - 01 - 31</a>
-              <a href="#" class="cap__item-link dot">(067) 634 -75 - 74</a>
-            </li>
-
-            <li class="cap__list-item row evenly icon">
-              <p>Пн - Пт 8:00 - 18:00</p>
-              <p>Сб - Вс 8:00 - 14:00</p>
-            </li>
-          </ul>
+        <div class="header-inner row between align-center">
+          <nav class="inner-nav relative-p">
+            <img class="header-img" src="img/logo.png" alt="vet-img">
+            <ul class="inner__list ">
+              <li class="inner__item row">
+                <a href="" class="innner__link">Главная</a>
+                <a href="" class="innner__link">О Клинике</a>
+                <a href="" class="innner__link">Наши Услуги</a>
+                <a href="" class="innner__link">Полезные Статьи</a>
+                <a href="" class="innner__link">FAQ</a>
+                <a href="" class="innner__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="inner__link" href="#">Задать вопрос</a>
         </div>
       </div>
-    </div>
-  </div>
+    </header>
 
-  <header>
-    <div class="container">
-      <div class="header-inner row between align-center">
-        <nav class="inner-nav relative-p">
-          <img class="header-img" src="img/logo.png" alt="vet-img">
-          <ul class="inner__list ">
-            <li class="inner__item row">
-              <a href="" class="innner__link">Главная</a>
-              <a href="" class="innner__link">О Клинике</a>
-              <a href="" class="innner__link">Наши Услуги</a>
-              <a href="" class="innner__link">Полезные Статьи</a>
-              <a href="" class="innner__link">FAQ</a>
-              <a href="" class="innner__link">Контакты</a>
+    <section id="hero-section">
+      <div class="container">
+        <div class="start row align-center evenly">
+          <div class="start-opening">
+            <h2 class="opnenig__title">Полезные статьи</h2>
+            <p class="opening__txt">Узнать информацию о наших услугах, записаться на прием к врачу или
+              проконсультироваться вы можете по телефону, в любое удобное для вас время.</p>
+          </div>
+          <img src="img/muwi.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="friends-section">
+      <div class="container">
+        <div class="inner row align-center between">
+          <img src="img/frieand_dogs.png" alt="">
+          <div class="inner__descrip ">
+            <div class=" row ">
+              <a href="#" class="atantion">#собака</a>
+              <a href="#" class="atantion">#дом</a>
+              <a href="#" class="atantion">#уход</a>
+              <time datetime="2020-08-29" class="friend__time">29.08.2020</time>
+            </div>
+            <h3 class="descrip__title">Перед тем как завести собаку</h3>
+            <p class="descrip__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+              зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И
+              первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка
+              приятное и радосное событие. Появление в доме котенка приятное и радосное событие. Но не всегда этот
+              пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый
+              дом.</p>
+
+            <a href="#" class="read-more">Читать больше</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hospital-section">
+      <div class="container">
+        <div class="row">
+          <ul class="wrapper__list row between">
+            <li class="wrapper__item">
+              <img src="img/vov_muwi.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/ukol-kuci.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Когда привавать питомца?</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/vana-kuci.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Как правильно купать животных</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/vov_muwi.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/qora-oq-muwi.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/quyon.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Когда привавать питомца?</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/layca.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Как правильно купать животных</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+            <li class="wrapper__item">
+              <img src="img/qulo-kuci.png" alt="img">
+              <div class="wrapper__div">
+                <time datetime="2020-08-28" class="wrapper__time">28.08.2020</time>
+                <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
+                <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый
+                  зверек берется от ...</p>
+                <a href="#" class="read-more wrapper__link">Читать больше</a>
+              </div>
+            </li>
+
+          </ul>
+          <div class="btn_div">
+            <a href="#" class="black-btn">Больше статей</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer__last row between">
+          <a href="#" class="footer-logo"><img src="img/logo.png" alt="img"></a>
+          <ul class="last__list row ">
+            <li class="last__item ">
+              <a href="#" class="last__link">Главная</a><br>
+              <a href="#" class="last__link">О Клинике</a><br>
+              <a href="#" class="last__link">Наши Услуги</a><br>
+            </li>
+
+            <li class="last__item">
+              <a href="#" class="last__link">Полезные Статьи</a><br>
+              <a href="#" class="last__link">FAQ</a><br>
+              <a href="#" class="last__link">Контакты</a><br>
             </li>
           </ul>
-        </nav>
-        <a class="inner__link" href="#">Задать вопрос</a>
-      </div>
-    </div>
-  </header>
 
-  <section id="hero-section">
-    <div class="container">
-      <div class="start row align-center evenly">
-      <div class="start-opening">
-        <h2 class="opnenig__title">Полезные статьи</h2>
-        <p class="opening__txt">Узнать информацию о наших услугах, записаться на прием к врачу или проконсультироваться вы можете по телефону, в любое удобное для вас время.</p>
-      </div>
-      <img src="img/muwi.png" alt="">
-    </div>
-    </div>
-  </section>
+          <ul class="last__list-days row">
+            <li class="days__item days__item-kal">
+              <a href="">Сб - Вс 8:00 - 14:00</a> <br>
+              <a href=""> Пн - Пт 8:00 - 18:00</a><br>
+            </li>
 
-  <section id="friends-section">
-    <div class="container">
-      <div class="inner row align-center between">
-        <img src="img/frieand_dogs.png" alt="">
-        <div class="inner__descrip ">
-          <div class=" row ">
-            <a href="#" class="atantion">#собака</a>
-            <a href="#" class="atantion">#дом</a>
-            <a href="#" class="atantion">#уход</a>
-            <time datetime="2020-08-29" class="friend__time">29.08.2020</time>
+            <li><a href="#" class="gps">г. Мариуполь,<br> проспект Победы, 48а</a></li>
+          
+            <li class="days__item">
+              <a class="days__link days__link-bef" href="#">(098) 266 - 43 - 89</a><br>
+              <a class="days__link" href="#">(0637) 57 - 01 - 31</a><br>
+              <a class="days__link" href="#">(067) 634 -75 - 74</a>
+            </li>
+          </ul>
+
+          <a class="clone__link" href="#">© 2020 example. All Rights Reserved.</a>
+
         </div>
-        <h3 class="descrip__title">Перед тем как завести собаку</h3>
-        <p class="descrip__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие. Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом.</p>
-
-        <a href="#" class="read-more">Читать больше</a>
-
       </div>
-    </div>
-    </div>
-  </section>
+    </footer>
 
-  <section id="hospital-section">
-    <div class="container">
-      <div class="row">
-        <ul class="wrapper__list row between">
-          <li class="wrapper__item">
-            <img src="img/vov_muwi.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li>
-          <li class="wrapper__item">
-            <img src="img/ukol-kuci.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Когда привавать питомца?</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/vana-kuci.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Как правильно купать животных</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/vov_muwi.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/qora-oq-muwi.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/quyon.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Когда привавать питомца?</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/layca.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Как правильно купать животных</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li> <li class="wrapper__item">
-            <img src="img/qulo-kuci.png" alt="img">
-            <div class="wrapper__div">
-              <time datetime="2020.08.28" class="wrapper__time">28.08.2020</time>
-            <h3 class="wrapper__title">Ультразвуковая чистка зубов</h3>
-            <p class="wrapper__txt">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-            <a href="#" class="read-more wrapper__link">Читать больше</a>
-            </div>
-          </li>
+  </body>
 
-        </ul>
-      </div>
-
-      <a href="#" class="black-btn">Больше статей</a>
-
-    </div>
-  </section>
-
-</body>
-
-</html>
+  </html>
