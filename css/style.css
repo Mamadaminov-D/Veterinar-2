@@ -1,0 +1,316 @@
+@font-face {
+  font-family: 'futura';
+  src: url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  --black: #333333;
+  --greey: #949494;
+  --yellow: #FFBD54;
+  --bg-greey: #F9F8F8;
+  --white: #fff;
+  --title-span: #78C0DE;
+}
+
+body {
+  font-family: 'futura';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-greey);
+}
+
+.cap {
+  padding: 10px 0px;
+}
+
+
+.cap__item-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  margin-right: 20px;
+}
+
+.cap__item-link:nth-child(1) {
+  margin-left: 150px;
+}
+
+.dot::before {
+  width: 6px;
+  height: 6px;
+  content: ' ';
+  background-color: var(--yellow);
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  left: -10px;
+}
+
+.icon::before {
+  width: 20px;
+  height: 20px;
+  content: ' ';
+  display: block;
+  background-image: url('../img/home-mini.svg');
+  position: relative;
+  top: 3px;
+  left: -4px;
+}
+
+.icon:nth-child(3)::before {
+  background-image: url('../img/kalendar-min.svg');
+}
+
+.iconn::before {
+  width: 20px;
+  height: 20px;
+  content: ' ';
+  display: block;
+  background-image: url('../img/tel-mini.svg');
+  position: relative;
+  top: 3px;
+  left: -8px;
+}
+
+header {
+  background-color: var(--white);
+  margin-bottom: 110px;
+}
+
+
+.header-img {
+  position: absolute;
+  top: -35px;
+  left: -40px;
+}
+
+.header-inner {
+  padding: 20px 0;
+}
+
+.inner {
+  margin-bottom: 65px;
+}
+
+.innner__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--black);
+  margin-right: 55px;
+}
+
+.inner__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--black);
+  margin-right: 19px;
+}
+
+.inner__link::before {
+  width: 25px;
+  height: 25px;
+  content: ' ';
+  background-image: url('../img/lapa.svg');
+  position: relative;
+  top: 5px;
+  left: -8px;
+}
+
+.innner__link:nth-child(1)::before {
+  width: 20px;
+  height: 15px;
+  content: ' ';
+  background-image: url('../img/baliq.svg');
+  position: relative;
+  top: 0;
+  left: -8px;
+}
+
+.innner__link:nth-child(1) {
+  margin-left: 270px;
+}
+
+
+.start-opening {
+  width: 560px;
+}
+
+.opnenig__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--black);
+  padding-bottom: 22px;
+}
+
+.opening__txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--greey);
+}
+
+.inner__descrip {
+  width: 530px;
+  margin-right: 110px;
+}
+
+.atantion {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3D9CEA;
+  padding-bottom: 35px;
+  margin-right: 10px;
+}
+
+.atantion:nth-child(3) {
+  margin-right: 300px;
+}
+
+.descrip__title {
+  width: 350px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--black);
+  padding-bottom: 35px;
+}
+
+.descrip__txt {
+  width: 510px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--greey);
+  padding-bottom: 45px;
+}
+
+.read-more {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--black);
+}
+
+.read-more::before {
+  width: 25px;
+  height: 25px;
+  content: ' ';
+  background-image: url(../img/lapa.svg);
+  position: relative;
+  top: 5px;
+  left: -8px;
+}
+
+.wrapper__list {
+  margin-bottom: 120px;
+}
+
+.wrapper__item {
+  width: 305px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.wrapper__div {
+  border: 1px solid #E4E4E2;
+  border-top: none;
+  margin-top: -5px;
+  padding: 0 30px;
+  border-radius: 0 0 8px 8px ;
+}
+
+.wrapper__time {
+  display: flex;
+  justify-content: end;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--greey);
+  padding-top:20px ;
+  padding-bottom: 5px;
+}
+
+.wrapper__title {
+  width: 195px;
+  text-align: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+.wrapper__txt {
+  width: 240px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+.wrapper__link {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.black-btn {
+  padding: 10px 12px;
+  background-color: var(--black);
+}
+
