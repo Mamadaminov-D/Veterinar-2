@@ -33,6 +33,10 @@ li {
   align-items: center;
 }
 
+.abs {
+  position: absolute;
+}
+
 .col-1 {
   max-width:8.333333%; 
   flex-basis: 8.333333%;
